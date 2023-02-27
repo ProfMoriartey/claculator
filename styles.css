@@ -9,11 +9,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    
     background-color: aqua;
     height: 100px;
     margin: 10px;
     width: 100%;
 }
+
+.currentNumber {
+    font-size: xx-large;
+}
+
+.previousNumber {
+    align-self: flex-end;
+
+}
+
 .top {
     display: flex;
     flex-direction: row;
@@ -22,7 +33,7 @@ body {
 
 .clear {
     height: 100px;
-    width: 85px;
+    width: 122px;
     margin-top: 10px;
     margin-right: 10px;
     box-sizing: border-box;
