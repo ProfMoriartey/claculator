@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: aqua;
+    height: 100px;
+    margin: 10px;
+    width: 100%;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.clear {
+    height: 100px;
+    width: 85px;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.calcBody {
+    width: 400px;
+    height: 500px;
+    background-color: blanchedalmond;
+}
+
+
+.container {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+    
+}
+
+
+button {
+    height: 85px;
+
+}
+
